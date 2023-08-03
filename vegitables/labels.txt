@@ -1,0 +1,12 @@
+0 Bean
+1 Bitter_Gourd
+2 Capsicum
+3 Cabbage
+4 Carrot
+5 Cucumber
+6 Papaya
+7 Pototo
+8 Pumpkin
+9 Tomato
+10 Brinjal
+11 Brocoli
