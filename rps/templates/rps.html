@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone/paper/scissor</title>
+    <link rel="stylesheet" href="../static/css/sps.css">
+</head>
+<body>
+    <div class="sps">
+        <center>
+        <form action="{{url_for('predict')}}" method="post" class="form">
+        <h1>PREDICTION</h1>
+        <label for="label">CHOOSE:FILE:</label>
+        <input type="file" name="file" id="file" placeholder="choose file">
+        <br>
+        <br>
+        <input type="submit" id="submit" value="submit">
+        <h2>{{pre}}</h2>
+
+    </form>
+        </center>
+    </div>
+</body>
+</html>
